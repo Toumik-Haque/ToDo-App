@@ -14,3 +14,5 @@ Mark tasks as completed
 
 Persistent data storage via MongoDB Atlas
 
+## Preview
+![image alt](https://github.com/Toumik-Haque/ToDo-App/blob/f241f9431280788b0cd2318ddd6cb0cda58f8a66/public/ToDo%20App%20UI.png)
