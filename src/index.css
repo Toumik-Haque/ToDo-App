@@ -1,0 +1,49 @@
+body {
+    background-color: white;
+}
+
+.completed {
+    color: rgb(0, 177, 0);
+}
+
+.modal-bg{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.eachtodo {
+    border-top: 1px solid;
+    width: 475px;
+    justify-content: space-between;
+}
+
+.clear-btn{
+    width: 475px;
+}
+
+.clear-btn > .btn{
+    height: 25px;
+    width: 125px;
+    padding: 0;
+    
+}
+
+@media screen and (max-width: 576px) {
+    .eachtodo {
+        width: 85vw;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .after-title{
+        align-self: end;
+    }
+
+    .clear-btn{
+        width: 85vw;
+    }
+
+    .modal-dialog{
+        width: 90vw;
+        margin: auto;
+    }
+}
